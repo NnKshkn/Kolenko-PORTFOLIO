@@ -1,0 +1,120 @@
+/*********************************************
+TWO COLUMN LAYOUT
+*********************************************/
+
+@media screen and (min-width: 480px) {
+  #primary {
+    width: 50%;
+    float: left;
+  }
+  
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+
+/*********************************************
+MARGINS FOR THREE COLUMN LAYOUT
+2,5% ON THE SIDES * 6 = 15%
+100%-15% = 85%
+85%/3 (IMAGES) = 28.33333333333333333% 
+SHOULD PUT THE REAL NUMBER
+*********************************************/
+
+/*********************************************
+PAGE: PORTFOLIO
+*********************************************/
+
+  #gallery li {
+    width: 28.3333333333%;
+    float:left;
+  }
+  
+ 
+/*********************************************
+PAGE: ABOUT
+*********************************************/
+
+  .Photo {
+    float: left;
+    margin: 0 5% 80px 5%;
+}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 660px) {
+  
+/*********************************************
+HEADER
+*********************************************/
+  nav {
+    background: #fa8072;
+    float: right;
+    text-align: right;
+    margin: 0 0 10px 0;
+    padding-top: 25px;
+    padding-right: 15px;
+    font-size: 1.125em;
+    width: 45%;
+  }
+  
+    
+  #logo {
+    text-align: left;
+    float:left;
+    padding: 0 0 0 20px; 
+  }
+  
+  h1 {
+    font-size: 1.9em;
+  }
+  
+  h2 {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+  }  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
